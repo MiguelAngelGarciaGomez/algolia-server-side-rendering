@@ -1,0 +1,9 @@
+<ais-instantsearch [config]="config">
+  <h3 class="c-filter-menu--title">Apps</h3>
+  <ais-refinement-list
+    operator="and"
+    attribute="app_pretty_names"
+    class="c-filter-menu--link"
+    [limit]="100"
+  ></ais-refinement-list>
+</ais-instantsearch>
